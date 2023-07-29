@@ -16,7 +16,7 @@
 
 ## 📝 Description
 
-A NodeJS module to port function `equal` from "[Deno - Standard Library - Testing - Asserts](https://deno.land/std/testing/asserts.ts?doc=&s=equal)".
+A NodeJS module to port function `equal` from "[Deno - Standard Library - Asserts](https://deno.land/std/assert/equal.ts?s=equal)".
 
 ## 📚 Documentation
 
@@ -42,12 +42,11 @@ equal(a: unknown, b: unknown): boolean;
 
 ### Example
 
-```js
-equal([1, 2, 3], [1, 2, 3]);
-//=> true
-```
-
-```js
-equal([1, 2, 3], [1, [2], 3]);
-//=> false
-```
+- ```js
+  equal([1, 2, 3], [1, 2, 3]);
+  //=> true
+  ```
+- ```js
+  equal([1, 2, 3], [1, [2], 3]);
+  //=> false
+  ```

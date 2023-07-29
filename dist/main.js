@@ -1,12 +1,11 @@
 import { deepStrictEqual } from "node:assert";
 /**
- * @function equal
- * @description Whether the items are equal or not by deep equality comparison.
+ * Determine whether the items are equal or not by deep equality comparison.
  * @param {unknown} a
  * @param {unknown} b
  * @returns {boolean} Determine result.
  */
-function equal(a, b) {
+export default function equal(a, b) {
     try {
         deepStrictEqual(a, b);
         return true;
@@ -15,4 +14,3 @@ function equal(a, b) {
         return false;
     }
 }
-export default equal;
