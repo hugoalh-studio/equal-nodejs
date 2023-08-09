@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/equal",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A module ported the function `equal` from \"Deno - Standard Library - Assert\".",
 	"keywords": [
 		"equal"
