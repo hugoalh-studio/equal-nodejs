@@ -11,7 +11,7 @@ import { deepStrictEqual } from "node:assert";
  * equal([1, 2, 3], [1, [2], 3]);
  * //=> false
  */
-export default function equal(a, b) {
+export function equal(a, b) {
     try {
         deepStrictEqual(a, b);
         return true;
@@ -20,3 +20,4 @@ export default function equal(a, b) {
         return false;
     }
 }
+export default equal;

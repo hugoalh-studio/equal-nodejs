@@ -10,33 +10,40 @@
 
 A NodeJS module ported the function `equal` from "[Deno - Standard Library - Assert](https://deno.land/std/assert/equal.ts?s=equal)".
 
-## 📓 Documentation
+## 🔰 Begin
 
-### Getting Started
+### NodeJS
 
-- NodeJS ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0
+- **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0, &:
+  - TypeScript >= v5.1.0 *\[Development\]*
+- **Require Permission:** *N/A*
+- **Domain/Registry:**
+  - [NPM](https://www.npmjs.com/package/@hugoalh/equal)
+    ```sh
+    npm install @hugoalh/equal
+    ```
+    ```js
+    import ... from "@hugoalh/equal";
+    ```
 
-```sh
-npm install @hugoalh/equal
-```
+> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see [file `package.json`](./package.json) property `exports` for available sub paths.
 
-```js
-import equal from "@hugoalh/equal";// Default Import
-```
+## 🧩 API
 
-### API
+- ```ts
+  function equal(a: unknown, b: unknown): boolean;
+  ```
 
-```ts
-function equal(a: unknown, b: unknown): boolean;
-```
+> **ℹ️ Notice:** Documentation is included inside the script file.
 
-### Example
+## ✍️ Example
 
 - ```js
+  import equal from "@hugoalh/equal";
+
   equal([1, 2, 3], [1, 2, 3]);
   //=> true
-  ```
-- ```js
+
   equal([1, 2, 3], [1, [2], 3]);
   //=> false
   ```

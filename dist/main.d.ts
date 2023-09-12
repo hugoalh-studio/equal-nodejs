@@ -10,5 +10,6 @@
  * equal([1, 2, 3], [1, [2], 3]);
  * //=> false
  */
-export default function equal(a: unknown, b: unknown): boolean;
+export declare function equal(a: unknown, b: unknown): boolean;
+export default equal;
 //# sourceMappingURL=main.d.ts.map
