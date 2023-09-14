@@ -57,7 +57,7 @@ A NodeJS module ported the function `equal` from "[Deno - Standard Library - Ass
 ## ✍️ Example
 
 - ```js
-  import equal from "@hugoalh/equal";
+  import { equal } from "@hugoalh/equal";
 
   equal([1, 2, 3], [1, 2, 3]);
   //=> true
