@@ -22,7 +22,7 @@ A NodeJS module ported the function `equal` from "[Deno - Standard Library - Ass
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/equal)
     ```sh
-    bun add @hugoalh/equal
+    bun add @hugoalh/equal[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/equal[@<Tag>]";
@@ -38,7 +38,7 @@ A NodeJS module ported the function `equal` from "[Deno - Standard Library - Ass
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/equal)
     ```sh
-    npm install @hugoalh/equal
+    npm install @hugoalh/equal[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/equal";
